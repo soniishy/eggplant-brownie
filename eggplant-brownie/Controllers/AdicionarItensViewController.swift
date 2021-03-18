@@ -8,23 +8,49 @@
 
 import UIKit
 
-class AdicionarItensViewController: UIViewController {
+protocol AdicionaItensDelegate {
+    func add(_ item: Item)
+}
 
+class AdicionarItensViewController: UIViewController {
+    
+    // MARK: - IBOutlets
+    
+    @IBOutlet weak var nomeTextField: UITextField!
+    @IBOutlet weak var caloriasTextField: UITextField!
+    
+    // MARK: - Atributos
+    
+    var delegate: AdicionaItensDelegate?
+    
+    init(delegate: AdicionaItensDelegate) {
+        super.init(nibName: "AdicionarItensViewController", bundle: nil)
+        self.delegate = delegate
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+    
+    // MARK: - View life cycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    // MARK: - IBAction
+    
+    @IBAction func adicionarItem(_ sender: Any) {
+        
+        guard let nome = nomeTextField.text, let calorias = caloriasTextField.text else {
+            return
+        }
+        
+        if let numeroDeCalorias = Double(calorias) {
+            let item = Item(nome: nome, calorias: numeroDeCalorias)
+            delegate?.add(item)
+            
+            navigationController?.popViewController(animated: true)
+        }
     }
-    */
-
 }

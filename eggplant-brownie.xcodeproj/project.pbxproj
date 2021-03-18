@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC224FBE25FED505000079E5 /* RefeicoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC224FBD25FED505000079E5 /* RefeicoesTableViewController.swift */; };
+		FC224FC1260026D5000079E5 /* AdicionarItensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC224FBF260026D5000079E5 /* AdicionarItensViewController.swift */; };
+		FC224FC2260026D5000079E5 /* AdicionarItensViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC224FC0260026D5000079E5 /* AdicionarItensViewController.xib */; };
+		FC3187312602789600B6F3D7 /* Alerta.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3187302602789600B6F3D7 /* Alerta.swift */; };
+		FC3187332602A4EB00B6F3D7 /* RemoveRefeicaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3187322602A4EB00B6F3D7 /* RemoveRefeicaoViewController.swift */; };
+		FC3187352602C9FA00B6F3D7 /* RefeicaoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3187342602C9FA00B6F3D7 /* RefeicaoDao.swift */; };
+		FC3187372602CCFB00B6F3D7 /* ItemDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3187362602CCFB00B6F3D7 /* ItemDao.swift */; };
 		FC5DF78D25FD285E00A4EB0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5DF78C25FD285E00A4EB0C /* AppDelegate.swift */; };
 		FC5DF78F25FD285E00A4EB0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5DF78E25FD285E00A4EB0C /* ViewController.swift */; };
 		FC5DF79225FD285E00A4EB0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5DF79025FD285E00A4EB0C /* Main.storyboard */; };
 		FC5DF79425FD286000A4EB0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC5DF79325FD286000A4EB0C /* Assets.xcassets */; };
 		FC5DF79725FD286000A4EB0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5DF79525FD286000A4EB0C /* LaunchScreen.storyboard */; };
+		FCAEFF1C25FE6CBC00858CC4 /* Refeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAEFF1B25FE6CBC00858CC4 /* Refeicao.swift */; };
+		FCAEFF1E25FE6D5B00858CC4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAEFF1D25FE6D5B00858CC4 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC224FBD25FED505000079E5 /* RefeicoesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefeicoesTableViewController.swift; sourceTree = "<group>"; };
+		FC224FBF260026D5000079E5 /* AdicionarItensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionarItensViewController.swift; sourceTree = "<group>"; };
+		FC224FC0260026D5000079E5 /* AdicionarItensViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdicionarItensViewController.xib; sourceTree = "<group>"; };
+		FC3187302602789600B6F3D7 /* Alerta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerta.swift; sourceTree = "<group>"; };
+		FC3187322602A4EB00B6F3D7 /* RemoveRefeicaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveRefeicaoViewController.swift; sourceTree = "<group>"; };
+		FC3187342602C9FA00B6F3D7 /* RefeicaoDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefeicaoDao.swift; sourceTree = "<group>"; };
+		FC3187362602CCFB00B6F3D7 /* ItemDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDao.swift; sourceTree = "<group>"; };
 		FC5DF78925FD285E00A4EB0C /* eggplant-brownie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eggplant-brownie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC5DF78C25FD285E00A4EB0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC5DF78E25FD285E00A4EB0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +38,9 @@
 		FC5DF79325FD286000A4EB0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC5DF79625FD286000A4EB0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC5DF79825FD286000A4EB0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC5DF79E25FD42CC00A4EB0C /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../../MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FCAEFF1B25FE6CBC00858CC4 /* Refeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refeicao.swift; sourceTree = "<group>"; };
+		FCAEFF1D25FE6D5B00858CC4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +74,47 @@
 			isa = PBXGroup;
 			children = (
 				FC5DF78C25FD285E00A4EB0C /* AppDelegate.swift */,
-				FC5DF78E25FD285E00A4EB0C /* ViewController.swift */,
-				FC5DF79025FD285E00A4EB0C /* Main.storyboard */,
+				FCAEFF1F25FE6E6100858CC4 /* Models */,
+				FCAEFF2125FE6ED700858CC4 /* Views */,
+				FCAEFF2025FE6EAD00858CC4 /* Controllers */,
 				FC5DF79325FD286000A4EB0C /* Assets.xcassets */,
+				FC5DF79E25FD42CC00A4EB0C /* MyPlayground.playground */,
 				FC5DF79525FD286000A4EB0C /* LaunchScreen.storyboard */,
 				FC5DF79825FD286000A4EB0C /* Info.plist */,
 			);
 			path = "eggplant-brownie";
+			sourceTree = "<group>";
+		};
+		FCAEFF1F25FE6E6100858CC4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FCAEFF1B25FE6CBC00858CC4 /* Refeicao.swift */,
+				FCAEFF1D25FE6D5B00858CC4 /* Item.swift */,
+				FC3187302602789600B6F3D7 /* Alerta.swift */,
+				FC3187342602C9FA00B6F3D7 /* RefeicaoDao.swift */,
+				FC3187362602CCFB00B6F3D7 /* ItemDao.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FCAEFF2025FE6EAD00858CC4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC5DF78E25FD285E00A4EB0C /* ViewController.swift */,
+				FC224FBD25FED505000079E5 /* RefeicoesTableViewController.swift */,
+				FC224FBF260026D5000079E5 /* AdicionarItensViewController.swift */,
+				FC3187322602A4EB00B6F3D7 /* RemoveRefeicaoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FCAEFF2125FE6ED700858CC4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC5DF79025FD285E00A4EB0C /* Main.storyboard */,
+				FC224FC0260026D5000079E5 /* AdicionarItensViewController.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +177,7 @@
 			files = (
 				FC5DF79725FD286000A4EB0C /* LaunchScreen.storyboard in Resources */,
 				FC5DF79425FD286000A4EB0C /* Assets.xcassets in Resources */,
+				FC224FC2260026D5000079E5 /* AdicionarItensViewController.xib in Resources */,
 				FC5DF79225FD285E00A4EB0C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +189,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC3187332602A4EB00B6F3D7 /* RemoveRefeicaoViewController.swift in Sources */,
+				FCAEFF1E25FE6D5B00858CC4 /* Item.swift in Sources */,
+				FC224FC1260026D5000079E5 /* AdicionarItensViewController.swift in Sources */,
+				FC3187352602C9FA00B6F3D7 /* RefeicaoDao.swift in Sources */,
 				FC5DF78F25FD285E00A4EB0C /* ViewController.swift in Sources */,
+				FC3187372602CCFB00B6F3D7 /* ItemDao.swift in Sources */,
+				FC224FBE25FED505000079E5 /* RefeicoesTableViewController.swift in Sources */,
+				FCAEFF1C25FE6CBC00858CC4 /* Refeicao.swift in Sources */,
 				FC5DF78D25FD285E00A4EB0C /* AppDelegate.swift in Sources */,
+				FC3187312602789600B6F3D7 /* Alerta.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
